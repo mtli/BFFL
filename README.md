@@ -2,8 +2,10 @@
 
 [[arXiv]](https://arxiv.org/abs/1802.01777)
 
-<img alt="Teaser" src="doc/Teaser4.png" width="600px">
-<img alt="Visual" src="doc/vis.png" width="600px">
+<div style="text-align: center">
+	<img alt="Teaser" src="doc/Teaser4.png" width="500px">
+	<img alt="Visual" src="doc/vis.png" width="500px">
+</div>
 
 ## Dependency
 * VLFeat

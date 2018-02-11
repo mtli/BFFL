@@ -26,8 +26,8 @@ bbxDet = ldata.bbxDet;
 
 if ~exist('model', 'var') || ~exist('net', 'var')
     modelPath = fullfile(opts.modelDir, 'pre-trained.mat');
-    fprintf('Loading the model (%s)\n', opts.modelPath);
-    model = load(opts.modelPath);
+    fprintf('Loading the model (%s)\n', modelPath);
+    model = load(modelPath);
     net = dagnn.DagNN.loadobj(model.net);
     net.move('gpu');
     net.mode = 'test';
